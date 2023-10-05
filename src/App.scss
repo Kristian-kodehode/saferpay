@@ -1,9 +1,16 @@
+.app-container {
+  width: 100%;
+  margin: 0 auto;
+}
+
 nav {
   display: flex;
   align-items: center;
+
   gap: 1rem;
   background-color: var(--brand-green);
   height: 56px;
+  width: 100%;
   color: var(--brand-white);
   li {
     list-style: none;
@@ -11,19 +18,20 @@ nav {
 }
 
 .container {
+  margin: 0 auto;
   display: grid;
   gap: 24px;
   grid-template-columns: repeat(1, 1fr);
   border: 1px solid black;
-  width: 100%;
+  padding: 16px;
 
   img {
-    width: 80%;
+    max-width: 326px;
   }
 }
 
 .headingdiv {
-  width: 426px;
+  max-width: 326px;
 
   h1 {
     margin-bottom: 16px;

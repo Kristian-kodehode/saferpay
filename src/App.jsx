@@ -4,7 +4,7 @@ import illustration from "./images/illustrationGirlAndDog.png";
 function App() {
   return (
     <>
-      <div>
+      <div className="app-container">
         <nav>
           <li>item</li>
           <li>item</li>
