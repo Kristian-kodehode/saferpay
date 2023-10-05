@@ -11,7 +11,25 @@ nav {
 }
 
 .headingdiv {
+  width: 426px;
+
   h1 {
-    color: var(--brand-black);
+    margin-bottom: 16px;
   }
+  h4 {
+    margin-bottom: 24px;
+  }
+}
+
+.button-seondary {
+  width: 100%;
+  color: var(--brand-green);
+  border: 1px solid var(--brand-green);
+  background-color: var(--brand-white);
+}
+.button-primary {
+  width: 100%;
+  color: var(--brand-white);
+
+  background-color: var(--brand-green);
 }
