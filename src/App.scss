@@ -10,6 +10,18 @@ nav {
   }
 }
 
+.container {
+  display: grid;
+  gap: 24px;
+  grid-template-columns: repeat(1, 1fr);
+  border: 1px solid black;
+  width: 100%;
+
+  img {
+    width: 80%;
+  }
+}
+
 .headingdiv {
   width: 426px;
 
