@@ -1,3 +1,15 @@
+nav {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  background-color: var(--brand-green);
+  height: 56px;
+  color: var(--brand-white);
+  li {
+    list-style: none;
+  }
+}
+
 .headingdiv {
   h1 {
     color: var(--brand-black);
