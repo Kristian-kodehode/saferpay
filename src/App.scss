@@ -9,16 +9,19 @@
   display: grid;
   gap: 24px;
   grid-template-columns: repeat(1, 1fr);
-  border: 1px solid black;
+  // border: 1px solid black;
   padding: 16px;
+  max-width: 1200px;
 
   img {
-    max-width: 326px;
+    // max-width: 326px;
+    width: 100%;
   }
 }
 
 .headingdiv {
-  max-width: 326px;
+  // max-width: 326px;
+  width: 100%;
 
   h1 {
     margin-bottom: 16px;
@@ -43,19 +46,19 @@
   background-color: var(--brand-green);
 }
 
-@media only screen and (min-width: 600px) {
+@media only screen and (min-width: 1000px) {
   .container {
     margin: 0 auto;
-    gap: 24px;
+    // gap: 24px;
     grid-template-columns: repeat(2, 1fr);
     width: 100%;
     padding: 32px;
-
+    align-items: center;
+    // justify-content: space-between;
     img {
-      max-width: 1000px;
+      width: 100%;
     }
   }
-
   .headingdiv {
     max-width: 426px;
   }
