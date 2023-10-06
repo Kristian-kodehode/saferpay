@@ -36,9 +36,12 @@
   }
 }
 
+.button-primary,
+.button-seondary {
+  border: 1px solid var(--brand-green);
+}
 .button-seondary {
   color: var(--brand-green);
-  border: 1px solid var(--brand-green);
   background-color: var(--brand-white);
 }
 .button-primary {
