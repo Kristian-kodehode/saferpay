@@ -22,6 +22,24 @@ body {
   background-color: var(--brand-offwhite);
 }
 
+nav {
+  display: flex;
+  align-items: center;
+  padding: 1rem;
+  justify-content: space-between;
+  background-color: var(--brand-green);
+  height: 5rem;
+  width: 100%;
+  color: var(--brand-white);
+  ul {
+    display: flex;
+    gap: 1rem;
+  }
+  li {
+    list-style: none;
+  }
+}
+
 h1 {
   font-size: 48px;
   line-height: calc(40px * 1.5);
@@ -34,9 +52,20 @@ h4 {
   line-height: 28px;
 }
 
+button,
+input {
+  padding: 1rem;
+  border-radius: 4px;
+  width: 100%;
+}
 button {
   font-size: 16px;
   font-weight: 400;
-  padding: 16px;
-  border-radius: 4px;
+}
+input {
+  display: block;
+
+  color: var(--brand-gray);
+  margin-bottom: 1.5rem;
+  border: 1px solid #1d201e;
 }

@@ -1,14 +1,21 @@
 import "./App.scss";
 import illustration from "./images/illustrationGirlAndDog.png";
+import logoNav from "./images/logoNav.svg";
 
 function App() {
   return (
     <>
       <div className="app-container">
         <nav>
-          <li>item</li>
-          <li>item</li>
-          <li>item</li>
+          <img
+            src={logoNav}
+            alt="white saferpay logo in navbar"
+          />
+          <ul>
+            <li>sign up</li>
+            <li>partners</li>
+            <li>about</li>
+          </ul>
         </nav>
         <main className="container">
           <div className="headingdiv">
@@ -18,11 +25,23 @@ function App() {
               your trusted partner for safe and seamless transactions.
             </h4>
             <button className="button-seondary">Read more</button>
+            <p style={{ color: "grey" }}>Or</p>
+            <form action="">
+              <input
+                type="text"
+                placeholder="Email"
+              />
+              <input
+                type="text"
+                placeholder="Password"
+              />
+              <button className="button-primary">Sign in</button>
+            </form>
           </div>
           <div>
             <img
               src={illustration}
-              alt=""
+              alt="illustration of girl working and dog sleep on floor"
             />
           </div>
         </main>
