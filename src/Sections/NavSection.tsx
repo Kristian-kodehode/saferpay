@@ -10,7 +10,7 @@ const NavSection = () => {
           alt="white saferpay logo in navbar"
         />
         <ul>
-          <li>sign up</li>
+          <li>sign in</li>
           <li>partners</li>
           <li>about</li>
         </ul>

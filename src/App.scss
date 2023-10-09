@@ -41,7 +41,9 @@
   border: 1px solid var(--brand-green);
 }
 .button-seondary {
-  color: var(--brand-green);
+  // color: var(--brand-green);
+  color: var(--brand-black);
+
   background-color: var(--brand-white);
 }
 .button-primary {
@@ -51,11 +53,11 @@
 
 @media only screen and (min-width: 1000px) {
   .container {
-    margin: 0 auto;
+    margin: 80px auto;
     // gap: 24px;
     grid-template-columns: repeat(2, 1fr);
     width: 100%;
-    padding: 32px;
+    // padding: 32px;
 
     img {
       // width: 100%;
@@ -64,5 +66,9 @@
   }
   .headingdiv {
     max-width: 426px;
+
+    h4 {
+      margin-bottom: 2rem;
+    }
   }
 }

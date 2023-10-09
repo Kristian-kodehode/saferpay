@@ -11,7 +11,9 @@ const MainSection = () => {
             With state-of-the-art encryption and fraud protection, SaferPay is
             your trusted partner for safe and seamless transactions.
           </h4>
-          <button className="button-seondary">Read more</button>
+          <button className="button-seondary">
+            <i class="fa-brands fa-google"></i> Login with Google
+          </button>
           <p style={{ color: "grey" }}>Or</p>
           <form action="">
             <input
@@ -22,7 +24,7 @@ const MainSection = () => {
               type="text"
               placeholder="Password"
             />
-            <button className="button-primary">Sign in</button>
+            <button className="button-primary">Sign Up</button>
           </form>
         </div>
         <div>
