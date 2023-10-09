@@ -24,7 +24,9 @@ const MainSection = () => {
               type="text"
               placeholder="Password"
             />
-            <button className="button-primary">Sign Up</button>
+            <button className="button-primary">
+              Sign Up <i className="fa-solid fa-right-to-bracket"></i>
+            </button>
           </form>
         </div>
         <div>
