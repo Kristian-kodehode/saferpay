@@ -12,7 +12,7 @@ const MainSection = () => {
             your trusted partner for safe and seamless transactions.
           </h4>
           <button className="button-seondary">
-            <i class="fa-brands fa-google"></i> Login with Google
+            <i className="fa-brands fa-google"></i> Login with Google
           </button>
           <p style={{ color: "grey" }}>Or</p>
           <form action="">

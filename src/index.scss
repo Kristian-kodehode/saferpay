@@ -25,10 +25,10 @@ body {
 nav {
   display: flex;
   align-items: center;
-  padding: 1rem;
+  padding: 0.5rem 1rem;
   justify-content: space-between;
   background-color: var(--brand-green);
-  height: 5rem;
+  // height: 5rem;
   width: 100%;
   color: var(--brand-white);
   ul {
@@ -70,4 +70,10 @@ input {
   color: var(--brand-gray);
   margin-bottom: 1.5rem;
   border: 1px solid #1d201e;
+}
+
+@media only screen and (min-width: 1000px) {
+  nav {
+    padding: 0.5rem 2rem;
+  }
 }
