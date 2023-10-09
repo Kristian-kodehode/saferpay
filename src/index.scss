@@ -24,11 +24,14 @@ body {
 
 nav {
   display: flex;
+  position: sticky;
   align-items: center;
+  top: -100px;
+  z-index: 100;
+  transition: top 0.3s ease;
   padding: 0.5rem 1rem;
   justify-content: space-between;
   background-color: var(--brand-green);
-  // height: 5rem;
   width: 100%;
   color: var(--brand-white);
   ul {
@@ -37,6 +40,10 @@ nav {
   }
   li {
     list-style: none;
+    cursor: pointer;
+  }
+  li:hover {
+    color: var(--brand-gray);
   }
 }
 
