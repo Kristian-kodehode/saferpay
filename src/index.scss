@@ -50,13 +50,17 @@ nav {
 h1 {
   font-size: 48px;
   line-height: calc(40px * 1.5);
+  letter-spacing: -0.24px;
   color: var(--brand-black);
 }
 
 h4 {
   font-size: 20px;
-  font-weight: 400;
+  font-weight: 300;
   line-height: 28px;
+  letter-spacing: 0.1px;
+  font-style: normal;
+  color: var(--brand-gray);
 }
 
 button,

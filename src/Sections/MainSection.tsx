@@ -8,8 +8,9 @@ const MainSection = () => {
         <div className="headingdiv">
           <h1>Welcome to Saferpay</h1>
           <h4>
-            With state-of-the-art encryption and fraud protection, SaferPay is
-            your trusted partner for safe and seamless transactions.
+            With state-of-the-art encryption and fraud protection,{" "}
+            <strong>SaferPay</strong> is your trusted partner for safe and
+            seamless transactions.
           </h4>
           <button className="button-seondary">
             <i className="fa-brands fa-google"></i> Login with Google
