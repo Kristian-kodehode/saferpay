@@ -1,20 +1,20 @@
 import React, { useEffect, useState } from "react";
 import logoNav from "../images/logoNav.svg";
 
-const NavSection = () => {
-  const [isMenuOpen, setMenuOpen] = useState(false);
-  const [showOverlay, setShowOverlay] = useState(false);
-  const [prevScrollPos, setPrevScrollPos] = useState(0);
+const NavSection: React.FC = () => {
+  const [isMenuOpen, setMenuOpen] = useState<boolean>(false);
+  const [isOverlayOpen, setOverlayOpen] = useState<boolean>(false);
+  const [prevScrollPos, setPrevScrollPos] = useState<number>(0);
 
   const toggleMenu = () => {
     setMenuOpen(!isMenuOpen);
-    setShowOverlay(!showOverlay);
+    setOverlayOpen(!isOverlayOpen);
     console.log("burger clicked");
   };
 
   const closeMenu = () => {
     setMenuOpen(false);
-    setShowOverlay(false);
+    setOverlayOpen(false);
   };
 
   useEffect(() => {
@@ -29,7 +29,7 @@ const NavSection = () => {
           navElement.style.top = "-100px";
         }
 
-        if (showOverlay) {
+        if (isOverlayOpen) {
           navElement.style.top = "0";
           navElement.style.overflow = "none";
         }
@@ -76,7 +76,7 @@ const NavSection = () => {
           <i className="fa-solid fa-bars"></i>
         </button>
       </nav>
-      {showOverlay && (
+      {isOverlayOpen && (
         <div
           className="overlay"
           onClick={closeMenu}
