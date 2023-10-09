@@ -24,16 +24,19 @@ body {
 
 nav {
   display: flex;
-  position: sticky;
+  position: fixed;
   align-items: center;
-  top: -100px;
+  top: 0px;
   z-index: 100;
   transition: top 0.3s ease;
   padding: 0.5rem 1rem;
   justify-content: space-between;
-  background-color: var(--brand-green);
+  // background-color: var(--brand-green);
+  background-color: hsla(139, 30%, 29%, 0.95);
   width: 100%;
   color: var(--brand-white);
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
   ul {
     display: flex;
     gap: 1rem;
@@ -41,9 +44,6 @@ nav {
   li {
     list-style: none;
     cursor: pointer;
-  }
-  li:hover {
-    color: var(--brand-gray);
   }
 }
 
@@ -82,5 +82,11 @@ input {
 @media only screen and (min-width: 1000px) {
   nav {
     padding: 0.5rem 2rem;
+
+    li:hover {
+      color: var(--brand-black);
+      text-decoration: underline;
+      text-underline-offset: 4px;
+    }
   }
 }

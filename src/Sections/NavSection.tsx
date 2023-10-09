@@ -3,11 +3,18 @@ import logoNav from "../images/logoNav.svg";
 
 const NavSection = () => {
   const [isMenuOpen, setMenuOpen] = useState(false);
+  const [showOverlay, setShowOverlay] = useState(false);
   const [prevScrollPos, setPrevScrollPos] = useState(0);
 
   const toggleMenu = () => {
     setMenuOpen(!isMenuOpen);
+    setShowOverlay(!showOverlay);
     console.log("burger clicked");
+  };
+
+  const closeMenu = () => {
+    setMenuOpen(false);
+    setShowOverlay(false);
   };
 
   useEffect(() => {
@@ -20,6 +27,11 @@ const NavSection = () => {
           navElement.style.top = "0";
         } else {
           navElement.style.top = "-100px";
+        }
+
+        if (showOverlay) {
+          navElement.style.top = "0";
+          navElement.style.overflow = "none";
         }
       }
 
@@ -42,11 +54,14 @@ const NavSection = () => {
         />
 
         {isMenuOpen ? (
-          <ul className="dropdown-menu">
-            <li>sign in</li>
-            <li>partners</li>
-            <li>about</li>
-          </ul>
+          <div>
+            <ul className="dropdown-menu">
+              <li>sign in</li>
+              <li>partners</li>
+              <li>about</li>
+            </ul>
+            <div className="overlayblur"></div>
+          </div>
         ) : (
           <ul className="regular-menu">
             <li>sign in</li>
@@ -61,6 +76,12 @@ const NavSection = () => {
           <i className="fa-solid fa-bars"></i>
         </button>
       </nav>
+      {showOverlay && (
+        <div
+          className="overlay"
+          onClick={closeMenu}
+        ></div>
+      )}
     </div>
   );
 };
