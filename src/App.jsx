@@ -1,7 +1,7 @@
 import "./App.scss";
-import MainSection from "./Sections/MainSection";
-import NavSection from "./Sections/NavSection";
-import OurGuarantee from "./Sections/OurGuarantee";
+import MainSection from "./Sections/MainSection.tsx";
+import NavSection from "./Sections/NavSection.tsx";
+import OurGuarantee from "./Sections/OurGuarantee.tsx";
 
 function App() {
   return (

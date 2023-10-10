@@ -14,6 +14,7 @@ const OurGuarantee = () => {
         <div className="guarantee-card">
           <i className="fa-solid fa-lock"></i>
           <h6>guarantee</h6>
+
           <h3>State of the art encryption for your protection.</h3>
         </div>
         <div>

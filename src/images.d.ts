@@ -1,4 +1,4 @@
-// images.d.ts
+// Declaring images for TS
 declare module "*.png" {
   const value: string;
   export default value;
