@@ -74,6 +74,12 @@ h6 {
   text-transform: uppercase;
 }
 
+section {
+  display: grid;
+  gap: 20px;
+  padding: 1rem 1rem;
+}
+
 button,
 input {
   padding: 1rem;

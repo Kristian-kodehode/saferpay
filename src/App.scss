@@ -7,7 +7,7 @@
   margin: 64px auto;
   display: grid;
   grid-template-columns: repeat(1, 1fr);
-  padding: 1rem;
+  // padding: 1rem;
   max-width: 1200px;
 
   img {
@@ -84,6 +84,11 @@ nav {
   background-color: var(--brand-green);
 }
 
+.guarantee-cards-container {
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+}
+
 .guarantee-card {
   max-width: 400px;
   display: flex;
@@ -107,7 +112,7 @@ nav {
     grid-template-columns: repeat(2, 1fr);
     width: 100%;
     // padding: 32px;
-    padding: 2rem;
+    // padding: 2rem;
 
     img {
       // width: 100%;
@@ -132,5 +137,9 @@ nav {
     h4 {
       margin-bottom: 2rem;
     }
+  }
+
+  .guarantee-cards-container {
+    grid-template-columns: repeat(3, 1fr);
   }
 }

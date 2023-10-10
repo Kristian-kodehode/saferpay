@@ -4,10 +4,14 @@ const OurGuarantee = () => {
   return (
     <section>
       <h3>Our guarantee</h3>
-      <div>
+      <div className="guarantee-cards-container">
         <div className="guarantee-card">
           <h6>guarantee</h6>
           <h3>We got your back when the scammers are loose.</h3>
+        </div>
+        <div className="guarantee-card">
+          <h6>guarantee</h6>
+          <h3>State of the art encryption for your protection.</h3>
         </div>
       </div>
     </section>
