@@ -16,6 +16,11 @@
 
 html {
   font-family: "Inter", sans-serif;
+  scroll-behavior: smooth;
+}
+a {
+  text-decoration: none;
+  color: var(--brand-white);
 }
 
 body {

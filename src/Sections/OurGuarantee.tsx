@@ -1,9 +1,9 @@
 import React from "react";
 import IllustrationDeal from "../images/IllustrationDeal.png";
 
-const OurGuarantee = () => {
+const OurGuarantee: React.FC = () => {
   return (
-    <section>
+    <section id="our-guarantee">
       <h3>Our guarantee</h3>
       <div className="guarantee-cards-container">
         <div className="guarantee-card">

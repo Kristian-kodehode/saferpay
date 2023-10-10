@@ -56,16 +56,20 @@ const NavSection: React.FC = () => {
         {isMenuOpen ? (
           <div>
             <ul className="dropdown-menu">
-              <li>sign in</li>
-              <li>partners</li>
+              <li>
+                <a href="#our-guarantee">safety</a>
+              </li>
+              <li>mission</li>
               <li>about</li>
             </ul>
             <div className="overlayblur"></div>
           </div>
         ) : (
           <ul className="regular-menu">
-            <li>sign in</li>
-            <li>partners</li>
+            <li>
+              <a href="#our-guarantee">safety</a>
+            </li>
+            <li>mission</li>
             <li>about</li>
           </ul>
         )}
