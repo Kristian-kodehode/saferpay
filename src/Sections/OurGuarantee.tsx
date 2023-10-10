@@ -19,7 +19,7 @@ const OurGuarantee = () => {
         <div>
           <img
             src={IllustrationDeal}
-            alt=""
+            alt="illustration of two hands shaking eachother"
           />
         </div>
       </div>
