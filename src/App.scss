@@ -84,6 +84,22 @@ nav {
   background-color: var(--brand-green);
 }
 
+.guarantee-card {
+  max-width: 400px;
+  display: flex;
+  height: 280px;
+  padding: 32px 32px 40px 32px;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 16px;
+  flex-shrink: 0;
+  background-color: var(--brand-white);
+
+  border-radius: 8px;
+  box-shadow: 2px 4px 12px 0px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(10px);
+}
+
 @media only screen and (min-width: 1000px) {
   .container {
     margin: 80px auto;
