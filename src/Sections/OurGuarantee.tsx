@@ -1,4 +1,5 @@
 import React from "react";
+import IllustrationDeal from "../images/IllustrationDeal.png";
 
 const OurGuarantee = () => {
   return (
@@ -14,6 +15,12 @@ const OurGuarantee = () => {
           <i className="fa-solid fa-lock"></i>
           <h6>guarantee</h6>
           <h3>State of the art encryption for your protection.</h3>
+        </div>
+        <div>
+          <img
+            src={IllustrationDeal}
+            alt=""
+          />
         </div>
       </div>
     </section>
