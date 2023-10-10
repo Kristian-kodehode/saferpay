@@ -17,8 +17,6 @@
 }
 
 nav {
-  // position: relative;
-
   .button-burger {
     background-color: rgba(255, 255, 255, 0);
     color: var(--brand-white);
@@ -111,6 +109,20 @@ nav {
   backdrop-filter: blur(10px);
 
   font-size: 24px;
+}
+
+.seriously-good-card {
+  max-width: 387px;
+  height: fit-content;
+  background-color: white;
+  img {
+    object-fit: cover;
+    width: 100%;
+    height: 330px;
+  }
+  h3 {
+    padding: 1rem 1rem 2rem 1rem;
+  }
 }
 
 @media only screen and (min-width: 768px) {
