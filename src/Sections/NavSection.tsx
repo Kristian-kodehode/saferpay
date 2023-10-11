@@ -48,10 +48,13 @@ const NavSection: React.FC = () => {
   return (
     <div>
       <nav>
-        <img
-          src={logoNav}
-          alt="white saferpay logo in navbar"
-        />
+        <a href="#main-section">
+          {" "}
+          <img
+            src={logoNav}
+            alt="white saferpay logo in navbar"
+          />
+        </a>
 
         {isMenuOpen ? (
           <div>
@@ -59,7 +62,7 @@ const NavSection: React.FC = () => {
               <li>
                 <a href="#our-guarantee">safety</a>
               </li>
-              <li>mission</li>
+              <li>support</li>
               <li>about</li>
             </ul>
             <div className="overlayblur"></div>
@@ -69,7 +72,7 @@ const NavSection: React.FC = () => {
             <li>
               <a href="#our-guarantee">safety</a>
             </li>
-            <li>mission</li>
+            <li>support</li>
             <li>about</li>
           </ul>
         )}

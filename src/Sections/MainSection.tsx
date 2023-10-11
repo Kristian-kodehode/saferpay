@@ -3,7 +3,7 @@ import illustration from "../images/illustrationGirlAndDog.png";
 
 const MainSection = () => {
   return (
-    <section>
+    <section id="main-section">
       <main className="container">
         <div className="headingdiv">
           <h1>Welcome to Saferpay</h1>

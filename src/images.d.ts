@@ -1,13 +1,13 @@
 // Declaring images for TS
 declare module "*.png" {
-  const value: string;
+  const value: string | undefined;
   export default value;
 }
 declare module "*.jpg" {
-  const value: string;
+  const value: string | undefined;
   export default value;
 }
 declare module "*.svg" {
-  const value: string;
+  const value: string | undefined;
   export default value;
 }

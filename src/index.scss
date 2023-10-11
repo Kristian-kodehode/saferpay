@@ -59,11 +59,26 @@ h1 {
   // color: var(--brand-black);
   color: var(--brand-green);
 }
+h2 {
+  font-weight: 500;
+}
+.quote {
+  font-size: 36px;
+  color: var(--brand-gray);
+}
+.quote-author {
+  color: var(--brand-gray);
+  font-size: 16px;
+}
+
 h3 {
   font-size: 24px;
-  font-weight: 600;
   letter-spacing: -0.12px;
   color: var(--brand-black);
+}
+.section-heading {
+  color: var(--brand-gray);
+  font-size: 20px;
 }
 h4 {
   font-size: 20px;

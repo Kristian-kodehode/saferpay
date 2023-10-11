@@ -5,7 +5,7 @@ const OurGuarantee: React.FC = () => {
   return (
     <section id="our-guarantee">
       <section>
-        <h3>Our guarantee</h3>
+        <h3 className="section-heading">Our guarantee</h3>
         <div className="guarantee-cards-container">
           <div className="guarantee-card">
             <i className="fa-solid fa-user-shield"></i>
@@ -26,7 +26,7 @@ const OurGuarantee: React.FC = () => {
         </div>
       </section>
       <section>
-        <h3>Seriously good</h3>
+        <h3 className="section-heading">Seriously good</h3>
         <div className="guarantee-cards-container">
           <div className="seriously-good-card">
             <img

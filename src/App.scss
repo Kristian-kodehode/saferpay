@@ -115,6 +115,8 @@ nav {
   max-width: 387px;
   height: fit-content;
   background-color: white;
+  border-radius: 8px;
+  overflow: hidden;
   img {
     object-fit: cover;
     width: 100%;
@@ -125,6 +127,29 @@ nav {
   }
 }
 
+.statement-section {
+  .quote {
+    font-size: 32px;
+  }
+}
+
+.support-section {
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  justify-content: space-evenly;
+  img {
+    transition: 0.5s ease;
+  }
+  img:hover {
+    scale: 1.03;
+  }
+}
+
+@media only screen and (min-width: 700px) {
+}
+
 @media only screen and (min-width: 768px) {
   .guarantee-cards-container {
     display: grid;
@@ -132,6 +157,11 @@ nav {
     gap: 1rem;
     justify-content: space-between;
     margin: 0 auto;
+  }
+  .statement-section {
+    .quote {
+      font-size: 36px;
+    }
   }
 }
 
