@@ -6,7 +6,10 @@ import visit from "../images/groupVisitUs.png";
 
 const Support = () => {
   return (
-    <section className="support-section-container">
+    <section
+      id="support"
+      className="support-section-container"
+    >
       <div className="support-section">
         <img
           src={support}

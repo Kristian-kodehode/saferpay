@@ -62,7 +62,9 @@ const NavSection: React.FC = () => {
               <li>
                 <a href="#our-guarantee">safety</a>
               </li>
-              <li>support</li>
+              <li>
+                <a href="#support">support</a>
+              </li>
               <li>about</li>
             </ul>
             <div className="overlayblur"></div>
@@ -72,7 +74,9 @@ const NavSection: React.FC = () => {
             <li>
               <a href="#our-guarantee">safety</a>
             </li>
-            <li>support</li>
+            <li>
+              <a href="#support">support</a>
+            </li>
             <li>about</li>
           </ul>
         )}
