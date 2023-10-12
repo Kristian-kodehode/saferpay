@@ -3,6 +3,7 @@ import MainSection from "./Sections/MainSection.tsx";
 import NavSection from "./Sections/NavSection.tsx";
 import OurGuarantee from "./Sections/OurGuarantee.tsx";
 import Support from "./Sections/Support.tsx";
+import Footer from "./Sections/Footer";
 
 function App() {
   return (
@@ -22,6 +23,7 @@ function App() {
           </section>
         </section>
         <Support />
+        <Footer />
       </div>
     </>
   );
