@@ -24,7 +24,7 @@ const OurGuarantee: React.FC = () => {
         </div>
       </div>
 
-      <section>
+      <div className="section-div">
         <h3 className="section-heading">Seriously good</h3>
         <div className="guarantee-cards-container">
           <div className="seriously-good-card">
@@ -49,7 +49,7 @@ const OurGuarantee: React.FC = () => {
             <h3>We mean business when it is about our customers</h3>
           </div>
         </div>
-      </section>
+      </div>
     </section>
   );
 };

@@ -102,6 +102,10 @@ section {
   max-width: 1200px;
   margin: 0 auto;
 }
+.section-div {
+  display: grid;
+  gap: 20px;
+}
 
 button,
 input {
