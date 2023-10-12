@@ -16,12 +16,17 @@ const MainSection = () => {
             <i className="fa-brands fa-google"></i> Login with Google
           </button>
           <p style={{ color: "grey" }}>Or</p>
-          <form action="">
+          <form
+            id="input-form"
+            action=""
+          >
             <input
+              name="input-text"
               type="text"
               placeholder="Email"
             />
             <input
+              name="input-password"
               type="text"
               placeholder="Password"
             />
