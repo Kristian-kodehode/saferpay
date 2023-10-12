@@ -27,7 +27,7 @@ const MainSection = () => {
             />
             <input
               name="input-password"
-              type="text"
+              type="password"
               placeholder="Password"
             />
             <button className="button-primary">

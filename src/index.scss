@@ -36,12 +36,15 @@ nav {
   transition: top 0.4s ease;
   padding: 0.5rem 1rem;
   justify-content: space-between;
-  // background-color: var(--brand-green);
-  background-color: hsla(139, 30%, 29%, 0.95);
+  background-color: var(--brand-green);
+
+  border-radius: 0px 0px 8px 8px;
+
   width: 100%;
   color: var(--brand-white);
   backdrop-filter: blur(10px);
   -webkit-backdrop-filter: blur(10px);
+
   ul {
     display: flex;
     gap: 1rem;
