@@ -1,5 +1,5 @@
 import React from "react";
-import IllustrationDeal from "../images/IllustrationDeal.png";
+import illustrationDeal from "../images/IllustrationDeal.png";
 
 const OurGuarantee: React.FC = () => {
   return (
@@ -18,7 +18,7 @@ const OurGuarantee: React.FC = () => {
         </div>
         <div>
           <img
-            src={IllustrationDeal}
+            src={illustrationDeal}
             alt="illustration of two hands shaking eachother"
           />
         </div>
