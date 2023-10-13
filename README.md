@@ -1,8 +1,12 @@
-# React + Vite
+# Saferpay - a secure online payment provider
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Saferpay is a subproject of one of my other projects; React Userflow Ecommerce.
+I wanted that project to be totally fictional yet believable so in the payment section
+i added a fictional company called SaferPay, i made the logo and called it a day, but it kinda stuck in my head.
+So fast forward a few weeks and i decided to at least create a landing page for the SaferPay company, and this is it.
 
-Currently, two official plugins are available:
+It does not have many functions and it is more about the design aspect and also to just give some more depth to my other project which uses SaferPay. I will probably use SaferPay as my go-to payment for my fictional project just to be able to use it over and over instead of using something real-world inside a case-study like the project i mentioned.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Overall this project was superfun to make since i do like a consistent and strict design. I like the seriousness, yet playfullness behind it. It is serious enough to let you think they are a capable and trustworthy company, yet they are welcoming and caring for their customers. That was my goal and i think i achieved it.
+
+It will probably recieve some updates here and there as i feel like it.
