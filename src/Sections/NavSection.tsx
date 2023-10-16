@@ -65,7 +65,14 @@ const NavSection: React.FC = () => {
               <li>
                 <a href="#support">support</a>
               </li>
-              <li>about</li>
+              <li>
+                <a
+                  href="https://github.com/Kristian-kodehode/saferpay"
+                  target="_blank"
+                >
+                  about
+                </a>
+              </li>
             </ul>
             <div className="overlayblur"></div>
           </div>
@@ -77,7 +84,15 @@ const NavSection: React.FC = () => {
             <li>
               <a href="#support">support</a>
             </li>
-            <li>about</li>
+            <li>
+              {" "}
+              <a
+                href="https://github.com/Kristian-kodehode/saferpay"
+                target="_blank"
+              >
+                about
+              </a>
+            </li>
           </ul>
         )}
         <button
