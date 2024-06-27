@@ -2,7 +2,8 @@ import "./App.scss";
 import MainSection from "./Sections/MainSection.tsx";
 import NavSection from "./Sections/NavSection.tsx";
 import OurGuarantee from "./Sections/OurGuarantee.tsx";
-import Support from "./Sections/Support.tsx";
+// import Support from "./Sections/Support.tsx";
+import founder from "./images/founder.jpg";
 import Footer from "./Sections/Footer";
 
 function App() {
@@ -13,6 +14,10 @@ function App() {
         <MainSection />
         <OurGuarantee />
         <section className="statement-section">
+          <img
+            src={founder}
+            alt=""
+          />
           <section>
             <h2 className="quote">
               “Our mission is to make online purchases worry-free.”{" "}
@@ -22,7 +27,7 @@ function App() {
             </p>
           </section>
         </section>
-        <Support />
+        {/* <Support /> */}
         <Footer />
       </div>
     </>
