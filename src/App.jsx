@@ -13,7 +13,9 @@ function App() {
         <NavSection />
         <MainSection />
         <OurGuarantee />
-        <section className="statement-section">
+        <section
+          id="our-mission"
+          className="statement-section">
           <img
             src={founder}
             alt=""

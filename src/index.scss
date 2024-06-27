@@ -88,8 +88,8 @@ footer {
     cursor: pointer;
   }
   li:hover {
-    text-decoration: underline;
-    text-underline-offset: 4px;
+    // text-decoration: underline;
+    // text-underline-offset: 4px;
   }
 
   .footer-copyright {
@@ -195,9 +195,9 @@ input {
     width: 100%;
 
     li:hover {
-      color: var(--brand-black);
+      color: var(--brand-white);
       text-decoration: underline;
-      text-underline-offset: 4px;
+      text-underline-offset: 8px;
     }
   }
   footer {

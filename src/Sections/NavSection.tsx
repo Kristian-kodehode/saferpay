@@ -63,14 +63,13 @@ const NavSection: React.FC = () => {
                 <a href="#our-guarantee">safety</a>
               </li>
               <li>
-                <a href="#support">support</a>
+                <a href="#our-mission">mission</a>
               </li>
               <li>
                 <a
                   href="https://github.com/Kristian-kodehode/saferpay"
-                  target="_blank"
-                >
-                  about
+                  target="_blank">
+                  Github
                 </a>
               </li>
             </ul>
@@ -82,31 +81,28 @@ const NavSection: React.FC = () => {
               <a href="#our-guarantee">safety</a>
             </li>
             <li>
-              <a href="#support">support</a>
+              <a href="#our-mission">mission</a>
             </li>
             <li>
               {" "}
               <a
                 href="https://github.com/Kristian-kodehode/saferpay"
-                target="_blank"
-              >
-                about
+                target="_blank">
+                Github
               </a>
             </li>
           </ul>
         )}
         <button
           className="button-burger"
-          onClick={toggleMenu}
-        >
+          onClick={toggleMenu}>
           <i className="fa-solid fa-bars"></i>
         </button>
       </nav>
       {isOverlayOpen && (
         <div
           className="overlay"
-          onClick={closeMenu}
-        ></div>
+          onClick={closeMenu}></div>
       )}
     </div>
   );
